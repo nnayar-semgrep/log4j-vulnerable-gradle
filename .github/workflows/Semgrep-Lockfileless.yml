@@ -23,5 +23,4 @@ jobs:
     - uses: actions/checkout@v4
     - run: |
         apk add openjdk17
-        export SEMGREP_REPO_DISPLAY_NAME="log4j-vulnerable-gradle-lockfileless"
         semgrep ci --allow-local-builds --verbose --supply-chain
