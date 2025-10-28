@@ -10,7 +10,7 @@ on:
   # random HH:MM to avoid a load spike on GitHub Actions at 00:00
   - cron: 05 5 * * 1
 
-name: Semgrep
+name: Semgrep-GRADLE-test
 jobs:
   buildGradleLockFile:
     runs-on: ubuntu-latest
